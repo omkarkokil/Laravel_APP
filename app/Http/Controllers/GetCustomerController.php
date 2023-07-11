@@ -9,8 +9,11 @@ class GetCustomerController extends Controller
 {
     public function show()
     {
+<<<<<<< HEAD
         echo "jii";
         echo "jii";
+=======
+>>>>>>> c4cbc8c2de8acafdc5bfb6413e59e9c68ef1d688
         $url = url("/registerCustomer");
         $customer = "";
         $title = "Register Customer";
@@ -22,7 +25,11 @@ class GetCustomerController extends Controller
 
     public function store(Request $req)
     {
+<<<<<<< HEAD
         echo "hii <pre>";
+=======
+        echo "<pre>";
+>>>>>>> c4cbc8c2de8acafdc5bfb6413e59e9c68ef1d688
         print_r($req->all());
 
         $customer = new Customers;
